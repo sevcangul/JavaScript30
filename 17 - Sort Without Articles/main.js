@@ -11,4 +11,5 @@ document.querySelector('#bands').innerHTML =
     .map(band => `<li>${band}</li>`)
     .join('');
 
+
 console.log(sortedBands);
